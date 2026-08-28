@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;   
+}
+#p1{
+    color:rgb(59, 56, 156);    
+}
+
+
+ #p2 {
+    background-color: red;
+    color: white;
+ }
+
+ #s1{
+    background-color: yellow;
+    color: purple;
+ }
+#s3{
+   background-color:rgb(21, 255, 0);
+   color: rgb(186, 226, 43);
+ }

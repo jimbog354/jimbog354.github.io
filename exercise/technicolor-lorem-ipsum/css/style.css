@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;   
+}#s1{
+    color:rgb(59, 56, 156);
+    background-color: aqua;    
+}
+
+
+ #s2 {
+    background-color: rgba(127, 102, 145, 0.651);
+    color: rgb(105, 130, 150);
+ }
+
+ #s3{
+    background-color: yellow;
+    color: purple;
+ }
+#s4{
+   background-color:rgb(21, 255, 0);
+   color: rgb(186, 226, 43);
+}
+#s5{
+    background-color: black;
+    color: aqua;   
+}
+#s6{
+    background-color: chartreuse;
+    color: burlywood;
+}
+#s7{
+    background-color: darkgreen;
+    color: hotpink;
+}
+#e1{
+    background-color: lightpink;
+    color: black;
+}#e1{
+    color:rgb(59, 56, 156);
+    background-color: aqua;    
+}
+
+
+ #e2 {
+    background-color: rgba(127, 102, 145, 0.651);
+    color: rgb(105, 130, 150);
+ }
+
+ #e3{
+    background-color: yellow;
+    color: purple;
+ }
+#e4{
+   background-color:rgb(21, 255, 0);
+   color: rgb(186, 226, 43);
+}
+#e5{
+    background-color: black;
+    color: aqua;   
+}
+#e6{
+    background-color: chartreuse;
+    color: burlywood;
+}
+#e7{
+    background-color: darkgreen;
+    color: hotpink;
+}
+#r1{
+    color:rgb(59, 56, 156);
+    background-color: aqua;    
+}
+
+
+ #r2 {
+    background-color: rgba(127, 102, 145, 0.651);
+    color: rgb(105, 130, 150);
+ }
+
+ #r3{
+    background-color: yellow;
+    color: purple;
+ }
+#r4{
+   background-color:rgb(21, 255, 0);
+   color: rgb(186, 226, 43);
+}
+#r5{
+    background-color: black;
+    color: aqua;   
+}
+#r6{
+    background-color: chartreuse;
+    color: burlywood;
+}
+#r7{
+    background-color: darkgreen;
+    color: hotpink;
+}
+
