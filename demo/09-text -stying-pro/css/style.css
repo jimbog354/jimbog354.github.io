@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;   
+}
+
+#s1 {
+    font-weight: bold;
+    text-decoration:none;
+}
+
+#s2{
+    font-style: italics;
+    text-align: center;
+}   
+
+#p1{
+    font-size: 24px;
+    text-align: center;
+}
+#p2{
+    font-style: oblique;
+    text-align: center;
+}
+#p3{
+    font-size: 57px;
+    text-decoration: middle; 
+} 

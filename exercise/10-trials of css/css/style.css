@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;   
+}
+
+#t1p1 {
+    color: green;  
+}
+
+#t2p2 {
+    color:#F711F7;
+
+}
+#t3p3 {
+    color: red,goldenrod,blue;  
+}
+
+#t4p4 {
+    color:skyblue;
+
+}#t5p5 {
+    color:rgb 255,255,0,yellow;  
+}
+
+#t6p6 {
+    font-weight:bold;
+
+}
+#t7p7 {
+    font-weight:bold;  
+}
+
+#t8p8 {
+    font-style:italic;
+
+}
+
+
+#t9p9{
+    font-weight:36px;  
+}
+
+#t10p10 {
+    font-weight:48px,24px,12px,;
+
+}
+
+
+
+
