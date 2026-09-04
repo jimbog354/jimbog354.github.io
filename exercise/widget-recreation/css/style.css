@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;   
+
+}
+
+#weather {   
+    background-color: lightskyblue;
+    margin: 36px;
+    border-radius:24px ;
+    padding:24px ;
+    display: inline-block;
+    color:white;
+    
+}
+img {
+    width: 99px ;
+    padding:12px ;
+    vertical-align: middle;
+}
+p {
+    display: inline-block ;
+    padding-bottom: 12px ;
+    font-size: larger;
+}
+
+p {
+    vertical-align: bottom;
+    font-size: larger;
+
+
+}
+p {
+       margin-left: auto;
+       margin-right: auto;
+       font-size: large;
+
+}

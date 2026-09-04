@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;   
+}
+
+
+
+div {
+    box-sizing: border-box;
+    margin-bottom: 125;
+    border: 5px black rgba(71, 78, 91, 0.625);
+    height: 137px;
+    border-radius: 45px 60px;
+    color: rgb(57, 106, 31);
+    padding: 75px;
+    background-color: rgb(18, 26, 66);
+    vertical-align: text-bottom;
+    text-transform: capitalize;
+    background-position: 23px;
+}
+
+
+
+
+}
+    
