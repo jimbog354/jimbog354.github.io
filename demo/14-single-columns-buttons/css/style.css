@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;   
+}
+.single-column {
+    background-color: lightgreen;
+   max-width: 400px;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 24px;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    display:inline-block ;
+}
+
+.primary {
+    background-color: forestgreen;
+    color: white;
+    padding: 12px;
+    border-radius:36px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 12px;
+
+}
+.secondary {
+    color: forestgreen;
+    border: 3px solid forestgreen;
+    padding: 36px;
+    border-radius: 36px;
+    font-weight: bold;
+    margin-right: 12px;
+
+}

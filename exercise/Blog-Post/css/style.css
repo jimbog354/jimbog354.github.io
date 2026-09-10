@@ -1,0 +1,52 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;   
+}
+.single-column {
+    background-color: blue;
+    color: white;
+    max-width:600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 24px;
+    font-family: cursive;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 32px;
+    border: 20px solid red;
+    
+}
+.primary {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border-radius: 36px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 12px;
+    vertical-align: middle;
+    border-bottom: solid red;
+}
+.secondary {
+    color: red;
+    border: 3px solid white;
+    padding: 36px;
+    border-radius: 36px;
+    font-weight: bold;
+    margin-right: 12px;
+
+}
+
+.div {
+    font-width: unset;
+    font-family: cursive;
+
+}
+img {
+    width: 100%;
+    
+}
