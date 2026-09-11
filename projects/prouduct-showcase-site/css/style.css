@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+MX+Guides&family=Slabo+13px&display=swap');
 
 *{
     box-sizing: border-box;
@@ -9,7 +8,8 @@ body {
     margin: 0px;
     font-family: sans-serif;   
 }
-h1 {font-family: "Open Sans", sans-serif;
+h1 {
+    font-family: "Open Sans", sans-serif;
 
 
 }
@@ -17,41 +17,32 @@ h2 {
      font-family: "Open Sans", sans-serif;
 }
 .single-column {
-    /* background-color: lightgreen; */
    max-width: 400px;
-   margin-right: 24px auto;
-   margin-left: 24px auto;
+   margin-right:  auto;
+   margin-left: auto;
    padding: 24px;
+   
    
 }
 
 .light-container {
-    background-color:blue;
+    color: white;
     padding: 48px 0px;
-
-}
-
-
-
-.dark-container {
-    background-color: green
-    color white
-    
-
-
-}
-.dark-container {
-    background-color:white
-    color white
+    background-color: darkorange;
     
 
 }
 
+.dark-container {
+    background-color:red;
+    
 
+
+}
 
 .button {
     text-decoration: none;
-    color: black;
+    color: red;
     display:inline-block ;
 }
 
@@ -74,3 +65,6 @@ h2 {
     margin-right: 12px;
 
 }
+
+
+
