@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;   
+}
+
+#single-column {
+    max-width: 1200px;
+    margin: 3px auto;
+
+}
+img {
+    width:100%;
+}
+/* FLEXBOX CONTAINER */
+
+/* FLEXBOX ITEMS */
+.media-and-text {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+/* FLEXBOX ITEMS */
+
+.media-and-text .left-side {
+    flex: 1;
+
+}
+/* FLEXBOX ITEMS */
+.media-and-text .right-side {
+    flex: 1;
+}
+.cards {
+    border: 5px solid blue;
+    padding: 36px;
+    text-align: center;
+    margin: 36px 0px;
+    flex: 1;
+}
+/* FLEXBOX_CONTAINER */
+.cards-container {
+    display: flex;
+    gap: 24px;
+} 
+
