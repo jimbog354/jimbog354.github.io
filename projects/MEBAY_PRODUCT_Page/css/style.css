@@ -1,0 +1,60 @@
+ *{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;   
+}
+#layout {
+    max-width: 1200px;
+    margin: 48px;
+    display: flex;
+
+    /* dont leave these pro when you sumbit */
+    
+    min-height: 100vh;
+}   
+   
+#thumbnail-column {
+    width: 125px;
+    
+    display: inline-block;
+}
+#featured-image-column {   
+    flex: 1;    
+}
+#product-info-column {   
+    width: 250px;         
+}
+img {
+    width: 100%;
+}  
+.justify-space-around {
+    justify-content: space-around;
+}
+.button {
+    text-decoration: none;
+    
+    display:inline-block ;
+}
+
+.primary {
+    background-color: blueviolet;
+    color: white;
+    padding: 12px;
+    border-radius:36px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 12px;
+
+}
+.secondary {
+    color: blue;
+    border: 3px solid blue;
+    padding: 12px;
+    border-radius: 36px;
+    font-weight: bold;
+    margin-right: 12px;
+
+}
