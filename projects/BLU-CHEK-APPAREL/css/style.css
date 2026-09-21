@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;   
+}
+h1 {
+    background-color: aqua;
+    border: bottom 120px;
+    font-size: 125px;zoom: normal;
+    display: flex
+      text-align: center     
+}
+h2{
+    text-decoration: blue solid;
+    
+}
