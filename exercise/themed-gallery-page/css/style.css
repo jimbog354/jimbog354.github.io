@@ -52,7 +52,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}   
+    
+}
+ .seventy-five-pixels {
+    font-size: 60px;
+}
 
 .basic-grid-gallery {
     display: grid;
