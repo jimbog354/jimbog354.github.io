@@ -3,7 +3,7 @@
 }
 
 body {
-     margin: 0px;
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     font-family: sans-serif;   
@@ -13,11 +13,14 @@ body {
     background: linear-gradient(to bottom,red, #3e6d3e);
     display: flex;
     justify-content: center;
+    color: red;
+    
+    
 }
 
 #navbar a {
     text-decoration: none;
-    color: white;
+    color:black;
     padding: 24px;
 }
 
@@ -29,29 +32,33 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 #hero-4 .hero-content {
     text-align: center;
-    color: white;
+    color: red;
     padding-top: 100px;
 }
 
 #hero-4 h2 {
-    font-size: 72px;
+    font-size: 124px;
     margin-bottom: 36px;
+    color: red;
+
 }
 
 #hero-4 h4 {
-    font-size: 24px;
+    font-size: 36px;
     margin: 0px;
+    color: red;
 }
 
 #hero-4 a {
     font-size: 14px;
     display: inline-block;
     background-color: white;
-    color: whitesmoke;
+    color: red;
     text-decoration: none;
     padding: 24px;
     margin-top: 36px;
@@ -71,6 +78,7 @@ body {
 }
 .basic-grid-gallery img {
     width: 100%;
+    flex-direction: column;
 }
 .single-column {
     max-width: 1000px;
@@ -85,6 +93,7 @@ body {
 .card-container {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 .card {
     flex: 1;
@@ -102,104 +111,36 @@ body {
     margin: 24px 0px 0px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 675px) {
     body {
-        background-color: red;
+        background-color:orange;
     }
-    
-#navbar {
+
+    #navbar {
     background: linear-gradient(to bottom,red, #3e6d3e);
     display: flex;
     justify-content: center;
-}
-
-#navbar a {
-    text-decoration: none;
-    color: white;
-    padding: 24px;
-}
-
-#hero-4 {
-    background-image: url("../images/urban-hi-res-3q76.jpg");
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#hero-4 .hero-content {
-    text-align: center;
-    color: white;
-    padding-top: 100px;
-}
-
-#hero-4 h2 {
-    font-size: 72px;
-    margin-bottom: 36px;
-}
-
-#hero-4 h4 {
-    font-size: 24px;
-    margin: 0px;
-}
-
-#hero-4 a {
-    font-size: 14px;
-    display: inline-block;
-    background-color: white;
-    color: whitesmoke;
-    text-decoration: none;
-    padding: 24px;
-    margin-top: 36px;
-    margin-right: 12px;
-    margin-left: 12px;
-}
-#layout {
-    max-width: 800px;
-    margin: 48px auto;
-    text-align: center;
-}
-.basic-grid-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 24px;
-    border: 10px solid #333333;
-}
-.basic-grid-gallery img {
-    width: 100%;
-}
-.single-column {
-    max-width: 1000px;
-    margin: 0px auto;
-}
-
-#card-section {
-    background-color: #5b00ed;
-    color: #bfefff;
-    padding: 48px;
-}
-.card-container {
+    flex-direction: column;.card-container {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    }
 }
-.card {
-    flex: 1;
-    border: 3px solid #bfefff;
-    padding: 36px;
-    text-align: center;
-    margin: 36px;
-}
-.card h3 {
-    font-size: 36px;
-    margin: 0px;
-}
-.card p {
-    font-size: 24px;
-    margin: 24px 0px 0px;
-}
-@media screen and (max-width: 450px) {
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
    
  
 
